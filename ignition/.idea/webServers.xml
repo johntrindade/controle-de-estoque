@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="db7dd83c-7cdd-410b-b032-9a91ff950c55" name="159.203.143.163" url="http://159.203.143.163">
+        <fileTransfer host="159.203.143.163" port="22" rootFolder="/home/mage" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="972f6c55-c819-4cb9-a3c8-035a367c9dc4" name="local" url="http://sites.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>
